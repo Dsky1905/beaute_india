@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title></title>
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="CSS/style.css" />
+  <link rel="stylesheet" href="CSS/all.min.css" />
+  <script src="main.js"></script>
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- <script src="main.js"></script> -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="navhead">
+    <div class="logoo">
+      <a href="index.html"><h1> BEAUT INDIA</h1></a>
+    </div>
+    <ul class="navhead-links" id="myDIV">
+      <li>
+        <div class="wrapper">
+          <div class="container searchcontainer">
+            <div class="search_wrap search_wrap_1">
+              <div class="search_box">
+                <input type="text" class="input-search" placeholder="SEARCH" />
+                <div class="btn btn_common">
+                  <img src="/picture/Group 1.svg" class="search-img" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li>
+        <a href=""><img src="/picture/noun-love-4726271.svg" class="heart-img" alt=""></a>
+      </li>
+      <li>
+        <a href=""><img src="/picture/Path 39.svg" class="cart-img" alt=""></a>
+      </li>
+      <li class="nav-item dropdown user">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+          aria-expanded="false">
+          Paras
+        </a>
+        <!-- <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+             <li><a class="dropdown-item" href="#">Setting</a></li> -->
+        <!-- <li><a class="dropdown-item" href="#">Demo</a></li> -->
+        <!-- <li><hr class="dropdown-divider"></li> -->
+        <!-- <li><a class="dropdown-item" href="#">Logout</a></li> 
+          </ul> -->
+      </li>
+    </ul>
+
+    <div class="hamburger" onclick="myFunction()">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+  <div class="main-container-checkout">
+    <div class="login-section">
+      <div class="row ">
+        <div class="login-form-column ">
+          <h2>Sign up</h2>
+          <form class="checkout-form">
+
+            <div class="mb-4">
+              <div class="input-icons-sign">
+                <i class="name-icon">
+                </i>
+                <input type="text" class=" fc-sign " id="exampleInputName" aria-describedby="emailHelp"
+                  placeholder="First Name" required>  
+
+              </div>
+              <div class="input-icons-sign">
+                <i class="name-icon">
+                </i>
+                <input type="text" class=" fc-sign " id="exampleInputName" aria-describedby="emailHelp"
+                  placeholder="Last Name" required>
+
+              </div>
+            </div>
+
+            <div class="mb-4 ">
+              <div class="input-icons">
+                <i class="phone-icon">
+                </i>
+                <input type="number" class=" fc-l " id="exampleInputName" aria-describedby="emailHelp"
+                  placeholder="Phone number" required>
+
+              </div>
+            </div>
+            <div class="mb-4 ">
+              <div class="input-icons">
+                <i class="otp-icon">
+                </i>
+                <input type="email" class=" fc-l " id="exampleInputName" aria-describedby="emailHelp"
+                  placeholder="E-mail" required>
+
+              </div>
+            </div>
+            <div class="mb-4">
+              <div class="input-icons-checkout">
+                <i class="name-icon">
+                </i>
+                <input type="text" class=" fc-checkout " id="exampleInputName" aria-describedby="emailHelp"
+                  placeholder="First Name" required>
+
+              </div>
+              
+              <div class="input-icons-checkout">
+                <i class="name-icon">
+                </i>
+                <input type="text" class=" fc-checkout " id="exampleInputName" aria-describedby="emailHelp"
+                  placeholder="First Name" required>
+
+              </div>
+
+              <div class="input-icons-checkout">
+                <i class="name-icon">
+                </i>
+                <input type="text" class=" fc-checkout " id="exampleInputName" aria-describedby="emailHelp"
+                  placeholder="Last Name" required>
+
+              </div>
+            </div>
+            <div class="mb-4">
+              <div class="input-icons-checkout">
+                <i class="name-icon">
+                </i>
+                <input type="text" class=" fc-checkout " id="exampleInputName" aria-describedby="emailHelp"
+                  placeholder="First Name" required>
+
+              </div>
+
+              <div class="input-icons-checkout">
+                <i class="name-icon">
+                </i>
+                <input type="text" class=" fc-checkout " id="exampleInputName" aria-describedby="emailHelp"
+                  placeholder="First Name" required>
+
+              </div>
+              
+              <div class="input-icons-checkout">
+                <i class="name-icon">
+                </i>
+                <input type="text" class=" fc-checkout " id="exampleInputName" aria-describedby="emailHelp"
+                  placeholder="Last Name" required>
+
+              </div>
+            </div>
+
+            <div class="submit-section">
+              <span><div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  Ship to a different address
+                </label>
+              </div></span>
+              <span> <img src="/picture/Icon awesome-save.svg" width="15%" alt=""> Save Address</span>
+            </div>
+
+          </form>
+        </div>
+
+      </div>
+    </div>
+
+ 
+
+  <div class="mb-2">
+    <div class="new2"></div>
+  </div>
+  
+  <div class="address-section">
+    <span><h3>Saved Address</h3></span>
+    <span> <img src="/picture/Icon ionic-ios-add.svg" alt=""> Add new address</span>
+  </div>
+
+  <div class="address-edit-section ">
+    <div class="card-address mt-4 mb-5">
+      <div class="card-address-edit">
+        <h5>Paras shah</h5>
+        <img src="/picture/Icon material-edit.svg" alt="">
+      </div>
+      <div class="mt-3">
+      <span>
+        <h5>
+        #23, Karwar Road House, <br>
+        Bangalore-568215, <br>
+        Ph: 9525624523
+      </h5>
+      </span>
+    </div>
+      
+    </div>
+  </div>
+
+  <div class="mb-2">
+    <div class="new2"></div>
+  </div>
+
+  <div class="payment-optoin-section">
+    <div class="row pt-5 pb-5">
+      <div class="col-lg-8">
+        <h2>Payment Option</h2>
+        <div class="choose-payment-mode mt-5 pe-5">
+          <ul>
+            <div class="radio-btn-section pe-3">
+            <li>Razor pay </li> 
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+              <label class="form-check-label" for="exampleRadios1">
+               
+              </label>
+            </div>
+            </div>
+
+            <hr>
+            <div class="radio-btn-section pe-3">
+            <li>Cash on delivery</li>
+            
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+              <label class="form-check-label" for="exampleRadios2">
+               
+              </label>
+            </div>
+            </div>
+            <hr>
+            <div class="radio-btn-section pe-3">
+              <li>UPIs</li>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
+                <label class="form-check-label" for="exampleRadios3">
+              
+                </label>
+              </div>
+              </div>
+            
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="total-section">
+          <h1 class="mb-5"> <u> Total</u></h1>
+          <div class="total-products">
+          <div class="product-price">
+          <h5>Playboy Endless Night</h5><span>1000</span>
+          </div>
+          <div class="product-price">
+            <h5>Playboy Endless Night</h5><span>1000</span>
+            </div>
+            <div class="product-price">
+              <h5></h5><span>1000</span>
+              </div>
+              <div class="mb-2 mt-4">
+                <div class="new2"></div>
+              </div>
+              <div class="product-price">
+                <h5>Sub Total</h5><span>3000</span>
+                </div>
+              </div>
+                <button class="payment-btn mt-5"> <a href="login-2.html"> Proceed to Payment</a></button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+</div>
+  <!-- Footer Section  -->
+  <div class="container-fluid footsection ">
+    <div class="container ">
+      <div class="row  pt-5 pb-5 ">
+        <div class="col-lg-4 col-md-4 col-sm-6">
+
+          <div class="footdata">
+            <ul>
+              <li>
+                <div class="foothead mb-3">
+                  BEAUT INDIA
+                </div>
+              </li>
+              <li>Who we are ?</li>
+              <li>Terms & Conditions</li>
+              <li>We respect your privacy </li>
+              <li>Contact Us</li>
+              <li>Shipping & Returns</li>
+              <li>Authentication Certificate </li>
+              <li>FAQs</li>
+            </ul>
+          </div>
+
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-6">
+
+          <div class="footdata">
+            <ul>
+              <li>
+                <div class="foothead mb-3">
+                  SHOP BY
+                </div>
+              </li>
+              <li>Fragrance For Him</li>
+              <li>Fragrance For Her</li>
+              <li>Makeup</li>
+              <li>Body Care</li>
+              <li>Home Fragrance</li>
+              <li>Luggage</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12">
+
+          <div class="footdata">
+            <ul class="quick-links">
+              <li>
+                <div class="foothead mb-3">
+                  QUICK LINKS
+                </div>
+              </li>
+              <li><img src="/picture/Facebook.svg" class="mb-2" alt=""></li>
+              <li><img src="/picture/Instagram.svg" class="mb-2" alt=""></li>
+              <li><img src="/picture/YouTube.svg" class="mb-2" alt=""></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="child-foot">
+        <p class="mt-4">Sign up for our Newsletter</p>
+        <div class="foot-email-block mt-4">
+          <label class="f-email">
+            <input type="email" class="foot-email" placeholder="Your email address">
+          </label>
+        </div>
+        <div class="cards-img mt-4">
+          <img src="/picture/Visa.svg" alt="">
+          <img src="/picture/Mastercard.svg" alt="">
+          <img src="/picture/Netbanking.svg" alt="">
+          <img src="/picture/Amazon Pay.svg" alt="">
+          <img src="/picture/UPI.svg " alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
