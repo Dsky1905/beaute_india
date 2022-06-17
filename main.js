@@ -8,11 +8,6 @@ function myFunction() {
 
 
 
-// For Mobile Navigation toggle
-function openside() {
-  var element = document.getElementById("side");
-  element.classList.toggle("on");
-}
-  
+
 
 

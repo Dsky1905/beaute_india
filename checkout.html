@@ -54,7 +54,7 @@
         <a href=""><img src="/picture/noun-love-4726271.svg" class="heart-img" alt=""></a>
       </li>
       <li>
-        <a href=""><img src="/picture/Path 39.svg" class="cart-img" alt=""></a>
+        <a href="Cart.html"><img src="/picture/Path 39.svg" class="cart-img" alt=""></a>
       </li>
       <li class="nav-item dropdown user">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
@@ -85,88 +85,96 @@
           <h2>Sign up</h2>
           <form class="checkout-form">
 
-            <div class="mb-4">
+            <div class="checkout-margin">
               <div class="input-icons-sign">
                 <i class="name-icon">
                 </i>
-                <input type="text" class=" fc-sign " id="exampleInputName" aria-describedby="emailHelp"
+                <input type="text" class=" fc-sign checkbr " id="exampleInputName" aria-describedby="emailHelp"
                   placeholder="First Name" required>  
 
               </div>
               <div class="input-icons-sign">
                 <i class="name-icon">
                 </i>
-                <input type="text" class=" fc-sign " id="exampleInputName" aria-describedby="emailHelp"
+                <input type="text" class=" fc-sign checkbr" id="exampleInputName" aria-describedby="emailHelp"
                   placeholder="Last Name" required>
 
               </div>
             </div>
 
-            <div class="mb-4 ">
+            <div class="checkout-margin ">
               <div class="input-icons">
-                <i class="phone-icon">
+                <i class="address-book-icon">
                 </i>
-                <input type="number" class=" fc-l " id="exampleInputName" aria-describedby="emailHelp"
-                  placeholder="Phone number" required>
+                <input type="text" class=" fc-l checkbr" id="exampleInputName" aria-describedby="emailHelp"
+                  placeholder="Address Line 1" required>
 
               </div>
             </div>
-            <div class="mb-4 ">
+            <div class="checkout-margin ">
               <div class="input-icons">
+                <i class="address-book-icon">
+                </i>
+                <input type="text" class=" fc-l checkbr" id="exampleInputName" aria-describedby="emailHelp"
+                  placeholder="Address Line 2" required>
+
+              </div>
+            </div>
+            <div class="checkout-margin">
+              <div class="input-icons-checkout">
+                <i class="gender-icon">
+                </i>
+                <!-- <input type="text" class=" fc-checkout checkbr" id="exampleInputName" aria-describedby="emailHelp"
+                  placeholder="Gender" > -->
+                  <div class="form-group">
+                    <select  class=" fc-checkout checkbr"  id="exampleFormControlSelect1" required>
+                      <option>Gender</option>
+                      <option>Male</option>
+                      <option>Female</option>
+                      <option>Other</option>
+                      </select>
+                  </div>
+
+              </div>
+              
+              <div class="input-icons-checkout">
+                <i class="phone-icon">
+                </i>
+                <input type="number" class=" fc-checkout checkbr" id="exampleInputName" aria-describedby="emailHelp"
+                  placeholder="Phone number" required>
+
+              </div>
+
+              <div class="input-icons-checkout">
                 <i class="otp-icon">
                 </i>
-                <input type="email" class=" fc-l " id="exampleInputName" aria-describedby="emailHelp"
+                <input type="email" class=" fc-checkout checkbr " id="exampleInputName" aria-describedby="emailHelp"
                   placeholder="E-mail" required>
 
               </div>
             </div>
-            <div class="mb-4">
+            <div class="checkout-margin">
               <div class="input-icons-checkout">
-                <i class="name-icon">
+                <i class="postal-icon">
                 </i>
-                <input type="text" class=" fc-checkout " id="exampleInputName" aria-describedby="emailHelp"
-                  placeholder="First Name" required>
+                <input type="number" class=" fc-checkout checkbr" id="exampleInputName" aria-describedby="emailHelp"
+                  placeholder="Pincode" required>
+
+              </div>
+
+              <div class="input-icons-checkout">
+                <i class="map-icon">
+                </i>
+                <input type="text" class=" fc-checkout checkbr" id="exampleInputName" aria-describedby="emailHelp"
+                  placeholder="City" required>
 
               </div>
               
               <div class="input-icons-checkout">
-                <i class="name-icon">
+                <i class="city-hall-icon">
                 </i>
-                <input type="text" class=" fc-checkout " id="exampleInputName" aria-describedby="emailHelp"
-                  placeholder="First Name" required>
-
-              </div>
-
-              <div class="input-icons-checkout">
-                <i class="name-icon">
-                </i>
-                <input type="text" class=" fc-checkout " id="exampleInputName" aria-describedby="emailHelp"
-                  placeholder="Last Name" required>
-
-              </div>
-            </div>
-            <div class="mb-4">
-              <div class="input-icons-checkout">
-                <i class="name-icon">
-                </i>
-                <input type="text" class=" fc-checkout " id="exampleInputName" aria-describedby="emailHelp"
-                  placeholder="First Name" required>
-
-              </div>
-
-              <div class="input-icons-checkout">
-                <i class="name-icon">
-                </i>
-                <input type="text" class=" fc-checkout " id="exampleInputName" aria-describedby="emailHelp"
-                  placeholder="First Name" required>
-
-              </div>
-              
-              <div class="input-icons-checkout">
-                <i class="name-icon">
-                </i>
-                <input type="text" class=" fc-checkout " id="exampleInputName" aria-describedby="emailHelp"
-                  placeholder="Last Name" required>
+                <input type="text" class=" fc-checkout checkbr" id="exampleInputName" aria-describedby="emailHelp"
+                  placeholder="State" required>
 
               </div>
             </div>
@@ -178,7 +186,7 @@
                   Ship to a different address
                 </label>
               </div></span>
-              <span> <img src="/picture/Icon awesome-save.svg" width="15%" alt=""> Save Address</span>
+              <span class="sa-add"> <img src="/picture/awesome-save.svg" width="15%" alt=""> Save Address</span>
             </div>
 
           </form>
@@ -273,7 +281,7 @@
             <h5>Playboy Endless Night</h5><span>1000</span>
             </div>
             <div class="product-price">
-              <h5></h5><span>1000</span>
+              <h5>GST</h5><span>200</span>
               </div>
               <div class="mb-2 mt-4">
                 <div class="new2"></div>
@@ -292,7 +300,7 @@
 </div>
   <!-- Footer Section  -->
   <div class="container-fluid footsection ">
-    <div class="container ">
+    <div class="main-footer-section ">
       <div class="row  pt-5 pb-5 ">
         <div class="col-lg-4 col-md-4 col-sm-6">
 
